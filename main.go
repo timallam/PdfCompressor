@@ -36,6 +36,7 @@ func main() {
 		}
 	}
 
+	// create a channel to communicate with the main thread
 	opComplete := make(chan bool)
 	pdfFiles := 0
 
